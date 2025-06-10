@@ -18,3 +18,5 @@ findNemo(lotsanemos) # Found Nemo in 0.0007047653 seconds!
 
 # execution time increases as size of input increases
 # big o is the notation that plots input size against number of operations needed
+
+# here the growth is linear, which means the big O is O(n)
