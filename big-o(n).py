@@ -6,11 +6,11 @@ import os, sys, argparse
 
 # one example to demonstrate that is finding the largest element in an unsorted array 
 
-scope = range(1000)
+choices = range(1000)
 
-step = 100
+array_size = 100
 
-unsorted_array = [random.choice(scope) for _ in range(step)]
+unsorted_array = [random.choice(choices) for _ in range(array_size)]
 
 largest = unsorted_array[0]
 
